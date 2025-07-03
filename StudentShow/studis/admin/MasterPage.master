@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="admin_MasterPage" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>管理员端</title>
+    <asp:ContentPlaceHolder id="head" runat="server" />
+    <style>
+                html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Microsoft YaHei", sans-serif;
+    background-color: #f5faff;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-wrapper {
+    display: flex;
+    flex: 1;
+}
+
+
+
+        .header {
+            height: 80px;
+            background-color: #003366;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            font-size: 24px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .header-right {
+            font-size: 14px;
+            font-weight: normal;
+        }
+
+        .main-wrapper {
+    display: flex;
+    flex: 1; /* 💡 关键：撑开中间内容 */
+}
+
+        .sidebar {
+            width: 240px;
+            background-color: #e9f3ff;
+            padding: 20px 15px;
+            font-size: 17px;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+
+        .nav-title {
+            padding: 10px 5px;
+            margin-bottom: 10px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        .sidebar .nav-link {
+            display: block;
+            color: #005bac;
+            text-decoration: none;
+            padding: 10px 5px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+            transition: background 0.3s ease;
+        }
+
+        .sidebar .nav-link:hover {
+            background-color: #cfe3ff;
+        }
+
+        .content {
+            flex: 1;
+            padding: 30px;
+            min-height: 600px;
+            background-color: #ffffff;
+        }
+
+        .footer {
+            height: 60px;
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            line-height: 60px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="page-wrapper">
+        <div class="header">
+            学生科技作品展示平台 管理员端
+            <div style="float:right; font-size:14px;">
+                欢迎您：<asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+                编号：<asp:Label ID="Label2" runat="server" Text=""></asp:Label>
+                <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Yellow" OnClick="LinkButton1_Click">退出</asp:LinkButton>
+            </div>
+        </div>
+        <div class="main-wrapper">
+        <div class="sidebar">
+            <div class="nav-title">功能导航</div>
+            <a class="nav-link" href="index.aspx">管理员主页</a>
+            <a class="nav-link" href="StudentList.aspx">学生信息管理</a>
+            <a class="nav-link" href="AdminInfo.aspx">系统账号管理</a>
+            <a class="nav-link" href="WorkPersonList.aspx">学生个人作品管理</a>
+            <a class="nav-link" href="WorkTuanDuiList.aspx">学生团队作品管理</a>
+        </div>
+
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        </div>
+        </div>
+        <div class="footer">
+            版权所有 © 2025 学生科技作品展示平台
+        </div>
+            </div>
+    </form>
+</body>
+</html>
+
