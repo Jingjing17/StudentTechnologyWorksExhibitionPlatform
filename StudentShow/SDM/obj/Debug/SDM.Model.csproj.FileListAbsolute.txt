@@ -1,0 +1,6 @@
+C:\Users\Jingjing17\source\repos\StudentShow\SDM\bin\Debug\SDM.dll
+C:\Users\Jingjing17\source\repos\StudentShow\SDM\bin\Debug\SDM.pdb
+C:\Users\Jingjing17\source\repos\StudentShow\SDM\obj\Debug\SDM.Model.csproj.AssemblyReference.cache
+C:\Users\Jingjing17\source\repos\StudentShow\SDM\obj\Debug\SDM.Model.csproj.CoreCompileInputs.cache
+C:\Users\Jingjing17\source\repos\StudentShow\SDM\obj\Debug\SDM.dll
+C:\Users\Jingjing17\source\repos\StudentShow\SDM\obj\Debug\SDM.pdb
