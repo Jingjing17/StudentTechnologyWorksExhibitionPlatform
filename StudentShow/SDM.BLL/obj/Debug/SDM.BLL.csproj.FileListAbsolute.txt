@@ -1,0 +1,11 @@
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\bin\Debug\SDM.BLL.dll
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\bin\Debug\SDM.BLL.pdb
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\obj\Debug\SDM.BLL.csproj.AssemblyReference.cache
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\obj\Debug\SDM.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\obj\Debug\SDM.BLL.dll
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\obj\Debug\SDM.BLL.pdb
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\bin\Debug\SDM.DAL.dll
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\bin\Debug\SDM.dll
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\bin\Debug\SDM.DAL.pdb
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\bin\Debug\SDM.pdb
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.BLL\obj\Debug\SDM.BLL.csproj.Up2Date

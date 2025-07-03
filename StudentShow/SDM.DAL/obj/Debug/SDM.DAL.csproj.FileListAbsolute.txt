@@ -1,0 +1,9 @@
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.DAL\bin\Debug\SDM.DAL.dll
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.DAL\bin\Debug\SDM.DAL.pdb
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.DAL\obj\Debug\SDM.DAL.csproj.AssemblyReference.cache
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.DAL\obj\Debug\SDM.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.DAL\obj\Debug\SDM.DAL.dll
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.DAL\obj\Debug\SDM.DAL.pdb
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.DAL\bin\Debug\SDM.dll
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.DAL\bin\Debug\SDM.pdb
+C:\Users\Jingjing17\source\repos\StudentShow\SDM.DAL\obj\Debug\SDM.DAL.csproj.Up2Date
